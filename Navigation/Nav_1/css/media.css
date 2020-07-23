@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1199px) {
+.buzz_navitems{
+    padding: 12px;
+}
+.buzz_fa_icons i {
+    padding-right: 23px;
+}
+.buzz_logo_text {
+    padding-top: 0px;
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 1024px) {
+.buzz_navitems{
+    padding: 12px;
+    padding-top: 15px;
+    font-size: 17px;
+}
+.buzz_fa_icons {
+    padding-left: 23px;
+}
+.buzz_logo_text{
+    margin-top: 0px;
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 991px) {   
+.buzz_logo_text{
+    font-size: 16px;
+    padding-top: 1px;
+    margin-left: 10px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.buzz_hamburger {
+    margin-left: 40px;
+    margin-top: -2px;
+}
+.buzz_navitems {
+    padding: 0px;
+    padding-top: 15px;
+    font-size: 17px;
+}
+.buzz_fa_icons i {
+    padding-right: 4px;
+} 
+.buzz_logo_text{
+    font-size: 11px;
+    padding-top: 9px;
+    margin-left: -5px;
+}
+}
+
+@media only screen and (max-width: 567px) { 
+.buzz_navitems {
+    display: none;
+    margin-top: -2px;
+    margin-left: 100px;
+}
+.bars{
+    display: none;
+}
+.hambargar{
+    display: block;
+    margin: 28px 0px 0px 100px;
+}
+.buzz_navbar:hover .buzz_navitems{
+    display: block;
+}
+.buzz_icons {
+    margin-top: 20px;
+}
+.buzz_fa_icons {
+    padding-left: 0px;
+    margin-right: -36px;
+}
+.buzz_logo_text{
+    margin-left: -39px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.hambargar{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.buzz_navitems {
+    margin-top: -2px;
+    margin-left: 20px;
+}
+.buzz_navbar {
+    width: 30%;
+}
+.buzz_icons {
+    width: 45%;
+}
+.buzz_logo_text{
+    font-size: 8px;
+    margin-top: 0px;
+    margin-left: -45px;
+}
+.buzz_fa_icons {
+    padding-left: 0px;
+    margin-right: -39px;
+}
+.buzz_navbar:hover .buzz_navitems{
+   margin-left: 63px;
+}
+}

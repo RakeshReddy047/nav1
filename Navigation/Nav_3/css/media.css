@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1199px) {
+    .nav_search_box {
+        margin: 23px 0px 0px 130px;
+    }
+    .buzz_logo_main img {
+        margin-top: 31px;
+        margin-left: 20px;
+        width: 57%;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .buzz_logo_main img {
+        width: 53%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .nav_search_box {
+        border: 1px solid rgb(121, 118, 118);
+        width: 32vw;
+        margin: 23px 0px 0px 121px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+.buzz_hamburger {
+    width: 56%;
+    margin-left: 27px;
+}
+
+.buzz_logo_main img {
+    width: 46%;
+    margin-top: 33px;
+    margin-left: 14px;
+}
+.nav_search_box {
+    width: 35vw;
+    margin: 23px 0px 0px 81px;
+}
+.buzz_fa_icons {
+    padding: 33px;
+    padding-left: 47px;
+}
+}
+
+@media only screen and (max-width: 567px) {
+.buzz_hamburger {
+    margin-left: 10px;
+}
+.buzz_fa_icons {
+    padding: 33px;
+    padding-left: 17px;
+}
+.buzz_logo_main img {
+    width: 42%;
+    margin-left: 4px;
+}
+.nav_search_box {
+    width: 35vw;
+    margin: 23px 0px 0px 41px;
+}
+.buzz_fa_icons i {
+    padding-right: 5px;
+}
+.buzz_icons .log_in{
+    margin-right: -14px;
+    margin-left: -4px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.buzz_logo {
+    width: 35%;
+}
+.search_container {
+    width: 35%;
+}
+.buzz_icons{
+    width: 30%;
+}
+.nav_search_box {
+    width: 31vw;
+    margin: 29px 0px 0px 1px;
+}
+.nav_search input {
+    width: 23vw;
+}
+.buzz_logo_main img {
+    width: 40%;
+    margin-left: 5px;
+}
+.buzz_shoping{
+    margin-top: 24px;
+}
+.buzz_fa_icons {
+    padding-left: 12px;
+    margin-right: -7px;
+}
+
+}

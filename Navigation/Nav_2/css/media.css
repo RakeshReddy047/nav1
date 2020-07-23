@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1199px) {
+
+.buzz_logo_text {
+    padding-top: 10px;
+    margin-left: -80px;
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+
+.buzz_logo_text{
+    padding-top: 10px;
+    margin-left: -68px;
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.buzz_logo_text{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: -70px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.buzz_logo_text {
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: -40px;
+}
+.buzz_fa_icons {
+    padding: 33px;
+    padding-left: 47px;
+}
+.buzz_logo_main img {
+    width: 25%;
+}
+}
+
+@media only screen and (max-width: 567px) {
+.buzz_hamburger {
+    margin-left: 10px;
+}
+.buzz_logo_text {
+    margin-left: -30px;
+}
+.buzz_fa_icons {
+    padding: 33px;
+    padding-left: 17px;
+}
+.buzz_logo_main img {
+    width: 25%;
+}
+.buzz_fa_icons i {
+    padding-right: 5px;
+}
+.buzz_icons .log_in{
+    margin-right: -14px;
+    margin-left: -4px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+
+.buzz_logo {
+    width: 35%;
+}
+.buzz_navbar {
+    width: 35%;
+}
+.buzz_icons{
+    width: 30%;
+}
+.buzz_logo_main img {
+    width: 55%;
+}
+
+.buzz_fa_icons {
+    padding-left: 0px;
+    margin-right: -39px;
+}
+.buzz_icons .log_in {
+    margin-right: -29px;
+    margin-left: 21px;
+}
+}

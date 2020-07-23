@@ -1,0 +1,89 @@
+/* outer style */
+.abuzz__nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 4px solid #ddd;
+    width: 100%;
+}
+/* outer style */
+/* logo style start */
+.abuzz__logo {
+    display: flex;
+    width: 20%;
+}
+.hambargar {
+    display: none;
+}
+.abuzz__hamburger {
+    margin-left: 40px;
+}
+.abuzz__hamburger i {
+    padding-bottom: -77px;
+    margin-top: 30px;
+    color: black;
+    font-size: 25px;
+}
+.buzz__logo__text{
+    padding-left: 10px;
+}
+/* logo styles end */
+/* nav links start */
+.abuzz__navbar {
+    width: 55%;
+}
+.abuzz__nav__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.abuzz__nav__list li {
+    list-style-type: none;
+}
+.abuzz_nav__list a {
+    color: black;
+    text-decoration: none;
+}
+.abuzz__nav__list a:hover {
+    color: red;
+}
+.abuzz__nav__list li:nth-child(2) a{
+    color:red;
+}
+/* nav links end */
+/* user icons styles start */
+.abuzz__icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    margin-top: 36px;
+}
+
+sup {
+    padding: 3px;
+    border-radius: 60%;
+    background: orangered;
+    font-size: 18px;
+}
+.abuzz__list__items{
+    display: none;
+    list-style-type: none;
+}
+.abuzz__list__items li a{
+    margin-left: -40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.abuzz__navlist {
+    position: relative;
+    width: 20px;
+}
+.abuzz__navlist:hover .abuzz__list__items{
+    position: absolute;
+    display: block;
+    width: 300px;
+    line-height: 32px;
+}
+/* user icons styles end */

@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1199px) {
+.hambargar {
+ margin-left: 350px;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .hambargar {
+        margin-left: 260px;
+       }
+}
+
+@media only screen and (max-width: 991px) {
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .hambargar {
+        margin-left: 150px;
+       }
+}
+
+@media only screen and (max-width: 567px) {
+    .buzz_logo_main img {
+        margin-left: 80px;
+        width: 30%;
+        cursor: pointer;
+    }
+    .hambargar {
+        margin-left: 100px;
+       }
+    .hambargar:hover .buzz_navitems {
+        margin-left: -35px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .buzz_logo_main img {
+        margin-left: 50px;
+        width: 40%;
+    }
+    .hambargar {
+        margin-left: 20px;
+       }
+}
+
+@media only screen and (max-width: 320px) {
+    .buzz_logo_main img {
+        margin-left: 20px;
+        width: 50%;
+    }
+}
